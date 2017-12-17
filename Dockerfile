@@ -6,7 +6,7 @@ node --version && \
 npm --version && \
 python --version && \
 npm install --unsafe-perm --global storjshare-daemon && \
-npm cache clean && \
+npm cache --force clean && \
 apk del git openssl-dev python vim && \
 rm -rf /var/cache/apk/* && \
 rm -rf /tmp/npm* && \
