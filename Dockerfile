@@ -1,4 +1,4 @@
-FROM node:boron-alpine
+FROM node:carbon-alpine
 MAINTAINER Dan Chen <djc.me>
 
 RUN apk add --no-cache bash g++ git make openssl-dev python vim && \
